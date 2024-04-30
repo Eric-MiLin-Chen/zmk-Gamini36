@@ -59,17 +59,6 @@
             key-positions = <5 6>;
             timeout-ms = <50>;
         };
-
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <17 18>;
-            timeout-ms = <50>;
-        };
-
-        TO4 {
-            bindings = <&to 4>;
-            key-positions = <3 4>;
-        };
     };
 
     behaviors {
