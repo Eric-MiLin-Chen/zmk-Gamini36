@@ -145,10 +145,10 @@
         Game {
             label = "Game";
             bindings = <
-&kp ESC  &trans        &kp Q         &kp W      &kp E         &kp R         &kp T  &kp Y     &kp U     &trans           &none   &kp BACKSPACE
-&kp TAB  &kp LCTRL     &kp A         &kp S      &kp D         &kp F         &kp G  &mkp MB1  &mkp MB2  &kp RIGHT_SHIFT  &none   &kp RETURN
-&none    &none         &kp Z         &kp X      &kp C         &kp V         &kp B  &kp N1    &kp N2    &kp N3           &kp N4  &kp N5
-         &kp NUMBER_2  &kp NUMBER_1  &kp SPACE  &kp NUMBER_3  &kp NUMBER_4                   &mo 6     &none
+&kp ESC  &trans          &kp Q         &kp W      &kp E         &kp R         &kp T  &kp Y     &kp U     &trans           &none   &kp BACKSPACE
+&kp TAB  &kp LEFT_SHIFT  &kp A         &kp S      &kp D         &kp F         &kp G  &mkp MB1  &mkp MB2  &kp RIGHT_SHIFT  &none   &kp RETURN
+&none    &kp LCTRL       &kp Z         &kp X      &kp C         &kp V         &kp B  &kp N1    &kp N2    &kp N3           &kp N4  &kp N5
+         &kp NUMBER_2    &kp NUMBER_1  &kp SPACE  &kp NUMBER_3  &kp NUMBER_4                   &mo 6     &none
             >;
         };
 
